@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "m:\\git reposity\\projects\\somerandomcarproject\\somerandomcarproject\\source\\somerandomcarproject\\somerandomcarprojectoffroadwheelrear.cpp",
+        "ProvidedModule": "",
+        "PCH": "m:\\git reposity\\projects\\somerandomcarproject\\somerandomcarproject\\intermediate\\build\\win64\\x64\\somerandomcarprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "m:\\git reposity\\projects\\somerandomcarproject\\somerandomcarproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\somerandomcarproject\\definitions.somerandomcarproject.h",
+            "m:\\git reposity\\projects\\somerandomcarproject\\somerandomcarproject\\source\\somerandomcarproject\\somerandomcarprojectoffroadwheelrear.h",
+            "m:\\git reposity\\projects\\somerandomcarproject\\somerandomcarproject\\source\\somerandomcarproject\\somerandomcarprojectwheelrear.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\plugins\\experimental\\chaosvehiclesplugin\\source\\chaosvehicles\\public\\chaosvehiclewheel.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\simplevehicle.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\vehicleutility.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\enginesystem.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\vehiclesystemtemplate.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\transmissionsystem.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\suspensionsystem.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\wheelsystem.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\tiresystem.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\steeringsystem.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\steeringutility.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\aerodynamicssystem.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\aerofoilsystem.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\thrustsystem.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\experimental\\chaosvehicles\\chaosvehiclescore\\public\\arcadesystem.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\plugins\\experimental\\chaosvehiclesplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\chaosvehicles\\uht\\chaosvehiclewheel.generated.h",
+            "m:\\git reposity\\projects\\somerandomcarproject\\somerandomcarproject\\intermediate\\build\\win64\\unrealeditor\\inc\\somerandomcarproject\\uht\\somerandomcarprojectwheelrear.generated.h",
+            "m:\\git reposity\\projects\\somerandomcarproject\\somerandomcarproject\\intermediate\\build\\win64\\unrealeditor\\inc\\somerandomcarproject\\uht\\somerandomcarprojectoffroadwheelrear.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

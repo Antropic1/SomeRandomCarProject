@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "m:\\git reposity\\projects\\somerandomcarproject\\somerandomcarproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\somerandomcarproject\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "m:\\git reposity\\projects\\somerandomcarproject\\somerandomcarproject\\intermediate\\build\\win64\\x64\\somerandomcarprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "m:\\git reposity\\projects\\somerandomcarproject\\somerandomcarproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\somerandomcarproject\\definitions.somerandomcarproject.h",
+            "f:\\ue\\ue\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
