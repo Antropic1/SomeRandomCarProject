@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SomeRandomCarProject",
+			"Path": "../Source/SomeRandomCarProject.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SomeRandomCarProjectEditor",
+			"Path": "../Source/SomeRandomCarProjectEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

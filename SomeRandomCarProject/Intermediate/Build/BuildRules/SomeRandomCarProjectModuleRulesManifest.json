@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"/Users/anthony/Documents/Unreal Projects/SomeRandomCarProject/Source/SomeRandomCarProject/SomeRandomCarProject.Build.cs",
+		"/Users/anthony/Documents/Unreal Projects/SomeRandomCarProject/Source/SomeRandomCarProject.Target.cs",
+		"/Users/anthony/Documents/Unreal Projects/SomeRandomCarProject/Source/SomeRandomCarProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ProjectReference Include="Android/Android.Automation.csproj">
+      <Project>{1d29f5c1-30ee-3ca0-b84e-fb0a3b8950ca}</Project>
+      <Name>Android.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Apple/Apple.Automation.csproj">
+      <Project>{e2887911-1906-3ddb-bf83-f76c46aa786d}</Project>
+      <Name>Apple.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="AutomationUtils/AutomationUtils.Automation.csproj">
+      <Project>{3fdef42f-113c-38ed-9620-3fdf5543c54b}</Project>
+      <Name>AutomationUtils.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="BuildGraph/BuildGraph.Automation.csproj">
+      <Project>{3af0bacf-2f47-3fb7-b70f-1cb785a2a904}</Project>
+      <Name>BuildGraph.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="CookedEditor/CookedEditor.Automation.csproj">
+      <Project>{1839eb68-d082-337b-9eba-d858f7ee082e}</Project>
+      <Name>CookedEditor.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="CrowdinLocalization/CrowdinLocalization.Automation.csproj">
+      <Project>{4779447c-c394-3db9-a149-7150051b2963}</Project>
+      <Name>CrowdinLocalization.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Gauntlet/Gauntlet.Automation.csproj">
+      <Project>{adeedc6d-8696-3802-bf06-a37de03875d6}</Project>
+      <Name>Gauntlet.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="IOS/IOS.Automation.csproj">
+      <Project>{e2070d18-4021-366a-a3b9-f2d6baa91c0d}</Project>
+      <Name>IOS.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Linux/Linux.Automation.csproj">
+      <Project>{00829811-0e06-38ed-bc78-2ec1f6c1092d}</Project>
+      <Name>Linux.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="LiveLinkHub/LiveLinkHub.Automation.csproj">
+      <Project>{94532df7-c4a6-35bd-8a12-6e853237645d}</Project>
+      <Name>LiveLinkHub.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Localization/Localization.Automation.csproj">
+      <Project>{7a97ec9c-aa91-3a0e-a598-bd8517b4839e}</Project>
+      <Name>Localization.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="LowLevelTests/LowLevelTests.Automation.csproj">
+      <Project>{895b153d-618b-3a40-b176-4f8005ac7476}</Project>
+      <Name>LowLevelTests.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Mac/Mac.Automation.csproj">
+      <Project>{56464c3c-ff93-3dd0-8b67-51d2e2024700}</Project>
+      <Name>Mac.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Mutable/RunMutableCommandlet/RunMutableCommandlet.Automation.csproj">
+      <Project>{b987383f-fa1e-31fa-a2e3-31eddd348b90}</Project>
+      <Name>RunMutableCommandlet.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="OneSkyLocalization/OneSkyLocalization.Automation.csproj">
+      <Project>{e8ee7a99-57f8-35a6-a51d-39604a8ba76d}</Project>
+      <Name>OneSkyLocalization.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Scripts/AutomationScripts.Automation.csproj">
+      <Project>{7828a772-afde-34ab-9ad9-4edac130f02e}</Project>
+      <Name>AutomationScripts.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="SmartlingLocalization/SmartlingLocalization.Automation.csproj">
+      <Project>{9f96d9b0-74d9-32d8-a2f5-3def25ce7649}</Project>
+      <Name>SmartlingLocalization.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="SteamDeck/SteamDeck.Automation.csproj">
+      <Project>{b1960105-143e-3490-bb6b-28f4fa1063fe}</Project>
+      <Name>SteamDeck.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="TVOS/TVOS.Automation.csproj">
+      <Project>{cf3335f0-f99c-30f1-8b85-e9942c1cbd94}</Project>
+      <Name>TVOS.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Turnkey/Turnkey.Automation.csproj">
+      <Project>{f62d7c8d-6c90-32b4-8354-4bd38ddb5d58}</Project>
+      <Name>Turnkey.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="Win/Win.Automation.csproj">
+      <Project>{21f9b2ef-b4c0-37e6-bc85-7ade405d18b4}</Project>
+      <Name>Win.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="XLocLocalization/XLocLocalization.Automation.csproj">
+      <Project>{91dab819-e1d8-3a10-b44d-a2cdcaf81267}</Project>
+      <Name>XLocLocalization.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+    <ProjectReference Include="../../../Platforms/VisionOS/Source/Programs/AutomationTool/VisionOS.Automation.csproj">
+      <Project>{be6f89a8-e6e8-3a6a-95d3-6eccaaf03d2e}</Project>
+      <Name>VisionOS.Automation</Name>
+      <Private>false</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <Target Name="CleanUpStaleDlls" AfterTargets="Build">
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Android.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Android.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Android.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Apple.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Apple.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Apple.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/AutomationUtils.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/AutomationUtils.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/AutomationUtils.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/BuildGraph.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/BuildGraph.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/BuildGraph.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/CookedEditor.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/CookedEditor.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/CookedEditor.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/CrowdinLocalization.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/CrowdinLocalization.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/CrowdinLocalization.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Gauntlet.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Gauntlet.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Gauntlet.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/IOS.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/IOS.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/IOS.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Linux.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Linux.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Linux.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/LiveLinkHub.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/LiveLinkHub.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/LiveLinkHub.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Localization.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Localization.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Localization.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/LowLevelTests.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/LowLevelTests.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/LowLevelTests.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Mac.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Mac.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Mac.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/RunMutableCommandlet.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/RunMutableCommandlet.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/RunMutableCommandlet.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/OneSkyLocalization.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/OneSkyLocalization.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/OneSkyLocalization.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/AutomationScripts.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/AutomationScripts.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/AutomationScripts.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/SmartlingLocalization.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/SmartlingLocalization.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/SmartlingLocalization.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/SteamDeck.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/SteamDeck.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/SteamDeck.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/TVOS.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/TVOS.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/TVOS.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Turnkey.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Turnkey.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Turnkey.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Win.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Win.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/Win.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/XLocLocalization.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/XLocLocalization.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/XLocLocalization.Automation.pdb" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/VisionOS.Automation.dll" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/VisionOS.Automation.dll.config" />
+    <Delete Files="/Users/Shared/Epic Games/UE_5.5/Engine/Binaries/DotNET/AutomationTool/VisionOS.Automation.pdb" />
+  </Target>
+</Project>
