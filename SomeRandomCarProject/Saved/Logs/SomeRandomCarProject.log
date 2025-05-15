@@ -1473,3 +1473,464 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.05.15-20.33.18:443][  0]SourceControl: Revision control is disabled
 [2025.05.15-20.33.18:755][  0]LogConfig: Branch 'ObjectMixerSerializedData' had been unloaded. Reloading on-demand took 0.96ms
 [2025.05.15-20.33.18:829][  0]LogConfig: Branch 'Crypto' had been unloaded. Reloading on-demand took 0.84ms
+[2025.05.15-20.33.21:206][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.05.15-20.33.21:317][  0]LogCollectionManager: Loaded 0 collections in 0.001095 seconds
+[2025.05.15-20.33.21:345][  0]LogFileCache: Scanning file cache for directory 'M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Saved/Collections/' took 0.00s
+[2025.05.15-20.33.21:379][  0]LogFileCache: Scanning file cache for directory 'M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Content/Developers/Olly/Collections/' took 0.00s
+[2025.05.15-20.33.21:413][  0]LogFileCache: Scanning file cache for directory 'M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Content/Collections/' took 0.00s
+[2025.05.15-20.33.22:004][  0]LogUObjectArray: 43797 objects as part of root set at end of initial load.
+[2025.05.15-20.33.22:004][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.05.15-20.33.22:021][  0]LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 36419 public script object entries (987.14 KB)
+[2025.05.15-20.33.22:021][  0]LogStreaming: Display: AsyncLoading2 - Thread Started: false, IsInitialLoad: false
+[2025.05.15-20.33.22:250][  0]LogEngine: Initializing Engine...
+[2025.05.15-20.33.22:254][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2025.05.15-20.33.22:255][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.05.15-20.33.22:381][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.05.15-20.33.22:427][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.05.15-20.33.22:476][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.05.15-20.33.22:476][  0]LogInit: Texture streaming: Enabled
+[2025.05.15-20.33.22:606][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.5.4-40574608+++UE5+Release-5.5
+[2025.05.15-20.33.22:646][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.05.15-20.33.22:717][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.05.15-20.33.22:718][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.05.15-20.33.22:719][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.05.15-20.33.22:719][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.05.15-20.33.22:719][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.15-20.33.22:719][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.15-20.33.22:719][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.15-20.33.22:719][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.15-20.33.22:719][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.15-20.33.22:719][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.15-20.33.22:719][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.15-20.33.22:719][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.15-20.33.22:719][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.15-20.33.22:719][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.15-20.33.22:719][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.15-20.33.22:769][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.15-20.33.22:821][  0]LogAudioMixer: Display: Using Audio Hardware Device Speakers (USB Audio Device)
+[2025.05.15-20.33.22:822][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.15-20.33.22:823][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.15-20.33.22:823][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.15-20.33.22:824][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.05.15-20.33.22:824][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.05.15-20.33.22:827][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.05.15-20.33.22:827][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.05.15-20.33.22:827][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.05.15-20.33.22:828][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.05.15-20.33.22:828][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.05.15-20.33.22:868][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.05.15-20.33.22:883][  0]LogInit: Undo buffer set to 256 MB
+[2025.05.15-20.33.22:883][  0]LogInit: Transaction tracking system initialized
+[2025.05.15-20.33.23:636][  0]LogConfig: Branch 'LocalizationServiceSettings' had been unloaded. Reloading on-demand took 1.11ms
+[2025.05.15-20.33.23:645][  0]LocalizationService: Localization service is disabled
+[2025.05.15-20.33.23:744][  0]LogTimingProfiler: Initialize
+[2025.05.15-20.33.23:744][  0]LogTimingProfiler: OnSessionChanged
+[2025.05.15-20.33.23:744][  0]LoadingProfiler: Initialize
+[2025.05.15-20.33.23:744][  0]LoadingProfiler: OnSessionChanged
+[2025.05.15-20.33.23:744][  0]LogNetworkingProfiler: Initialize
+[2025.05.15-20.33.23:744][  0]LogNetworkingProfiler: OnSessionChanged
+[2025.05.15-20.33.23:744][  0]LogMemoryProfiler: Initialize
+[2025.05.15-20.33.23:744][  0]LogMemoryProfiler: OnSessionChanged
+[2025.05.15-20.33.24:588][  0]LogFileCache: Scanning file cache for directory 'M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Content/' took 0.02s
+[2025.05.15-20.33.24:725][  0]LogPython: Using Python 3.11.8
+[2025.05.15-20.33.26:011][  0]LogPython: Display: No enabled plugins with python dependencies found, skipping
+[2025.05.15-20.33.26:098][  0]LogRenderer: Requested compilation of Path Tracing RTPSOs (1 permutations).
+[2025.05.15-20.33.26:517][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.05.15-20.33.27:074][  0]LogStreaming: Warning: Failed to read file 'Common/Selector.png' error.
+[2025.05.15-20.33.27:074][  0]LogSlate: Could not find file for Slate resource: Common/Selector.png
+[2025.05.15-20.33.27:197][  0]LogEditorDataStorage: Initializing
+[2025.05.15-20.33.27:198][  0]LogEditorDataStorage: Initialized
+[2025.05.15-20.33.27:294][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.05.15-20.33.27:300][  0]SourceControl: Revision control is disabled
+[2025.05.15-20.33.27:300][  0]LogUnrealEdMisc: Loading editor; pre map load, took 157.419
+[2025.05.15-20.33.27:301][  0]Cmd: MAP LOAD FILE="M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Content/VehicleTemplate/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.05.15-20.33.27:304][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.05.15-20.33.27:304][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.15-20.33.27:318][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.05.15-20.33.27:320][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.05.15-20.33.27:384][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.05.15-20.33.27:527][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'VehicleAdvExampleMap'.
+[2025.05.15-20.33.27:527][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world VehicleAdvExampleMap
+[2025.05.15-20.33.27:530][  0]LogWorldPartition: ULevel::OnLevelLoaded(VehicleAdvExampleMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.05.15-20.33.27:530][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.15-20.33.27:530][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Game/VehicleTemplate/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.15-20.33.27:552][  0]LogStaticMesh: Display: Building static mesh SM_Cylinder (Required Memory Estimate: 0.196894 MB)...
+[2025.05.15-20.33.27:556][  0]LogStaticMesh: Built static mesh [0.00s] /Game/LevelPrototyping/Meshes/SM_Cylinder.SM_Cylinder
+[2025.05.15-20.33.27:557][  0]LogStaticMesh: Display: Building static mesh SM_Ramp (Required Memory Estimate: 0.020414 MB)...
+[2025.05.15-20.33.27:559][  0]LogStaticMesh: Built static mesh [0.00s] /Game/LevelPrototyping/Meshes/SM_Ramp.SM_Ramp
+[2025.05.15-20.33.27:603][  0]LogStaticMesh: Display: Building static mesh SM_Track_10M (Required Memory Estimate: 2.369507 MB)...
+[2025.05.15-20.33.27:615][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Track/SM_Track_10M.SM_Track_10M
+[2025.05.15-20.33.27:872][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.05.15-20.33.27:915][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.05.15-20.33.27:918][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.05.15-20.33.27:920][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2025.05.15-20.33.27:920][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2025.05.15-20.33.27:920][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.05.15-20.33.27:923][  0]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2025.05.15-20.33.27:925][  0]LogTexture: Display: Building textures: /Game/VehicleTemplate/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.LandscapeStreamingProxy_7P8XA0NMCUWMDEVFL1FEZ0V3B_126_1_0_0.Heightmap_1 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.05.15-20.33.27:925][  0]LogTexture: Display: Building textures: /Game/VehicleTemplate/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.LandscapeStreamingProxy_7P8XA0NMCUWMDEVFL1FEZ0V3B_126_1_0_0.Heightmap_7 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.05.15-20.33.27:925][  0]LogTexture: Display: Building textures: /Game/VehicleTemplate/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.LandscapeStreamingProxy_7P8XA0NMCUWMDEVFL1FEZ0V3B_126_1_0_0.Heightmap_3 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.05.15-20.33.27:925][  0]LogTexture: Display: Building textures: /Game/VehicleTemplate/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap:PersistentLevel.LandscapeStreamingProxy_7P8XA0NMCUWMDEVFL1FEZ0V3B_126_1_0_0.Heightmap_5 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 1.145824 MB), EncodeSpeed: Fast
+[2025.05.15-20.33.27:943][  0]LogWorldPartition: Display: WorldPartition initialize took 412.561 ms
+[2025.05.15-20.33.27:962][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.05.15-20.33.27:981][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.15-20.33.27:982][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.05.15-20.33.27:983][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.85ms to complete.
+[2025.05.15-20.33.28:005][  0]LogUnrealEdMisc: Total Editor Startup Time, took 158.123
+[2025.05.15-20.33.28:026][  0]LogAssetRegistry: Display: Asset registry cache written as 35.8 MiB to M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Intermediate/CachedAssetRegistry_*.bin
+[2025.05.15-20.33.28:158][  0]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2025.05.15-20.33.28:179][  0]LogSlate: The tab "VerticalModeToolbar" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.05.15-20.33.28:179][  0]LogSlate: The tab "VerticalModeToolbar" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.05.15-20.33.28:180][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.05.15-20.33.28:249][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.05.15-20.33.28:249][  0]LogSlate: The tab "TopLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.05.15-20.33.28:249][  0]LogSlate: The tab "BottomLeftModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.05.15-20.33.28:329][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.15-20.33.28:386][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.15-20.33.28:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.15-20.33.28:488][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.15-20.33.28:531][  0]LogSlate: The tab "TopRightModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.05.15-20.33.28:531][  0]LogSlate: The tab "TopRightModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.05.15-20.33.28:574][  0]LogSlate: The tab "BottomRightModeTab" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2025.05.15-20.33.28:694][  0]LogPakFile: Initializing PakPlatformFile
+[2025.05.15-20.33.28:701][  0]LogPakFile: Display: Mounted Pak file 'F:/Ue/Ue/UE_5.5/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.05.15-20.33.28:701][  0]LogPakFile: Initializing PakPlatformFile
+[2025.05.15-20.33.28:709][  0]LogPakFile: Display: Mounted Pak file 'F:/Ue/Ue/UE_5.5/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.05.15-20.33.28:710][  0]LogPakFile: Initializing PakPlatformFile
+[2025.05.15-20.33.28:717][  0]LogPakFile: Display: Mounted Pak file 'F:/Ue/Ue/UE_5.5/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.05.15-20.33.28:718][  0]LogPakFile: Initializing PakPlatformFile
+[2025.05.15-20.33.28:726][  0]LogPakFile: Display: Mounted Pak file 'F:/Ue/Ue/UE_5.5/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.05.15-20.33.28:727][  0]LogPakFile: Initializing PakPlatformFile
+[2025.05.15-20.33.28:732][  0]LogPakFile: Display: Mounted Pak file 'F:/Ue/Ue/UE_5.5/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.05.15-20.33.28:733][  0]LogPakFile: Initializing PakPlatformFile
+[2025.05.15-20.33.28:738][  0]LogPakFile: Display: Mounted Pak file 'F:/Ue/Ue/UE_5.5/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.05.15-20.33.28:738][  0]LogPakFile: Initializing PakPlatformFile
+[2025.05.15-20.33.28:745][  0]LogPakFile: Display: Mounted Pak file 'F:/Ue/Ue/UE_5.5/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.05.15-20.33.28:745][  0]LogPakFile: Initializing PakPlatformFile
+[2025.05.15-20.33.28:751][  0]LogPakFile: Display: Mounted Pak file 'F:/Ue/Ue/UE_5.5/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.05.15-20.33.28:751][  0]LogPakFile: Initializing PakPlatformFile
+[2025.05.15-20.33.28:759][  0]LogPakFile: Display: Mounted Pak file 'F:/Ue/Ue/UE_5.5/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.05.15-20.33.28:759][  0]LogPakFile: Initializing PakPlatformFile
+[2025.05.15-20.33.28:765][  0]LogPakFile: Display: Mounted Pak file 'F:/Ue/Ue/UE_5.5/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.05.15-20.33.29:366][  0]LogSlate: Took 0.007410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.05.15-20.33.29:378][  0]LogSlate: Took 0.007496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.05.15-20.33.29:385][  0]LogSlate: Took 0.006081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.05.15-20.33.29:393][  0]LogSlate: Took 0.006546 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.05.15-20.33.29:448][  0]LogNNEDenoiser: ApplySettings: bDenoiserEnabled 1
+[2025.05.15-20.33.29:451][  0]LogNNEDenoiser: Loaded input mapping from NNEDIM_ColorAlbedoNormal_Alpha
+[2025.05.15-20.33.29:451][  0]LogNNEDenoiser: Loaded output mapping from NNEDOM_Output_Alpha
+[2025.05.15-20.33.29:451][  0]LogNNEDenoiser: Try create model instance with runtime NNERuntimeORTDml on RDG...
+[2025.05.15-20.33.29:514][  0]LogNNEDenoiser: Display: Created model instance with runtime NNERuntimeORTDml on RDG
+[2025.05.15-20.33.29:514][  0]LogNNEDenoiser: Create denoiser from asset /NNEDenoiser/NNED_Oidn2-3_Balanced_Alpha.NNED_Oidn2-3_Balanced_Alpha...
+[2025.05.15-20.33.29:515][  0]LogNNEDenoiser: Loaded input mapping from NNEDTIM_ColorAlbedoNormal_Alpha
+[2025.05.15-20.33.29:515][  0]LogNNEDenoiser: Loaded output mapping from NNEDTOM_Output_Alpha
+[2025.05.15-20.33.29:515][  0]LogNNEDenoiser: Try create model instance with runtime NNERuntimeORTDml on RDG...
+[2025.05.15-20.33.29:576][  0]LogNNEDenoiser: Display: Created model instance with runtime NNERuntimeORTDml on RDG
+[2025.05.15-20.33.29:576][  0]LogNNEDenoiser: Create temporal denoiser from asset /NNEDenoiser/NNEDT_Oidn2-3_Balanced_Alpha.NNEDT_Oidn2-3_Balanced_Alpha...
+[2025.05.15-20.33.29:644][  0]LogSlate: Took 0.007820 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.05.15-20.33.29:863][  0]LogD3D12RHI: Creating RTPSO with 21 shaders (0 cached, 21 new) took 125.63 ms. Compile time 72.02 ms, link time 53.32 ms.
+[2025.05.15-20.33.30:161][  0]LogStall: Startup...
+[2025.05.15-20.33.30:164][  0]LogStall: Startup complete.
+[2025.05.15-20.33.30:223][  0]LogLoad: (Engine Initialization) Total time: 160.34 seconds
+[2025.05.15-20.33.30:240][  0]LogRawInputWindows: QueryConnectedDevices found 29 devices
+[2025.05.15-20.33.30:241][  0]LogRawInputWindows: QueryConnectedDevices found 29 devices
+[2025.05.15-20.33.30:241][  0]LogRawInputWindows: QueryConnectedDevices found 29 devices
+[2025.05.15-20.33.30:241][  0]LogRawInputWindows: VendorID:045E ProductID:02FF
+[2025.05.15-20.33.30:241][  0]LogRawInputWindows: Device was registered succesfully and is connected (Usage:5 UsagePage:1)
+[2025.05.15-20.33.30:436][  0]LogAssetRegistry: AssetRegistryGather time 11.6035s: AssetDataDiscovery 0.1214s, AssetDataGather 11.4192s, StoreResults 0.0629s. Wall time 34.1440s.
+	NumCachedDirectories 0. NumUncachedDirectories 1718. NumCachedFiles 0. NumUncachedFiles 7388.
+	BackgroundTickInterruptions 0.
+[2025.05.15-20.33.30:454][  0]LogSourceControl: Uncontrolled asset enumeration started...
+[2025.05.15-20.33.30:455][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2025.05.15-20.33.30:457][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2025.05.15-20.33.30:457][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="3000"
+[2025.05.15-20.33.30:595][  0]LogAutomationController: Ignoring very large delta of 19626688.28 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.05.15-20.33.30:596][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.15-20.33.30:600][  0]LogPython: Display: Running start-up script F:/Ue/Ue/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.05.15-20.33.30:623][  0]LogSourceControl: Uncontrolled asset enumeration finished in 0.168336 seconds (Found 7363 uncontrolled assets)
+[2025.05.15-20.33.30:972][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.05.15-20.33.31:251][  0]LogPython: Display: Running start-up script F:/Ue/Ue/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 650.885 ms
+[2025.05.15-20.33.31:355][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: SomeRandomCarProjectEditor Win64 Development
+[2025.05.15-20.33.55:007][869]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2025.05.15-20.33.55:032][869]LogContentBrowser: Creating deferred item: NewMaterial
+[2025.05.15-20.33.55:051][870]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2025.05.15-20.33.59:921][302]LogContentBrowser: Attempting asset rename: NewMaterial -> M_TESTCOMMIT
+[2025.05.15-20.33.59:925][302]LogContentBrowser: End creating deferred item NewMaterial
+[2025.05.15-20.33.59:934][302]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2025.05.15-20.34.01:006][368]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/M_TESTCOMMIT.M_TESTCOMMIT
+[2025.05.15-20.34.01:017][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png' error.
+[2025.05.15-20.34.01:017][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png
+[2025.05.15-20.34.01:017][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png' error.
+[2025.05.15-20.34.01:017][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png
+[2025.05.15-20.34.01:017][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png' error.
+[2025.05.15-20.34.01:017][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png
+[2025.05.15-20.34.01:017][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png' error.
+[2025.05.15-20.34.01:017][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png' error.
+[2025.05.15-20.34.01:017][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png
+[2025.05.15-20.34.01:017][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png
+[2025.05.15-20.34.01:017][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png' error.
+[2025.05.15-20.34.01:017][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png
+[2025.05.15-20.34.01:017][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png' error.
+[2025.05.15-20.34.01:017][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png
+[2025.05.15-20.34.01:017][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png' error.
+[2025.05.15-20.34.01:017][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png
+[2025.05.15-20.34.01:017][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png' error.
+[2025.05.15-20.34.01:017][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png
+[2025.05.15-20.34.01:017][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png' error.
+[2025.05.15-20.34.01:017][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png
+[2025.05.15-20.34.01:017][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png' error.
+[2025.05.15-20.34.01:017][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png
+[2025.05.15-20.34.01:017][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png' error.
+[2025.05.15-20.34.01:017][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png' error.
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png' error.
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png
+[2025.05.15-20.34.01:018][368]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png' error.
+[2025.05.15-20.34.01:018][368]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png
+[2025.05.15-20.34.01:046][368]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.05.15-20.34.01:054][368]LogStreaming: Display: FlushAsyncLoading(388): 1 QueuedPackages, 0 AsyncPackages
+[2025.05.15-20.34.01:248][368]LogSlate: The tab "MaterialEditor_Strata" attempted to spawn in layout 'Standalone_MaterialEditor_Layout_v14' but failed for some reason. It will not be displayed.
+[2025.05.15-20.34.01:470][368]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.15-20.34.01:471][368]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.01:471][368]MaterialEditorStats: Shader Count: 0
+[2025.05.15-20.34.01:471][368]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.01:492][368]LogSlate: Took 0.007449 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.05.15-20.34.01:694][370]MaterialEditorStats: Base pass shader: 164 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.05.15-20.34.01:694][370]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.05.15-20.34.01:694][370]MaterialEditorStats: Texture samplers: 1/16
+[2025.05.15-20.34.01:694][370]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.01:694][370]MaterialEditorStats: Shader Count: 5
+[2025.05.15-20.34.01:694][370]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.07:645][789]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.15-20.34.07:645][789]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.07:645][789]MaterialEditorStats: Shader Count: 0
+[2025.05.15-20.34.07:645][789]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.07:743][791]MaterialEditorStats: Base pass shader: 164 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.05.15-20.34.07:743][791]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.05.15-20.34.07:743][791]MaterialEditorStats: Texture samplers: 1/16
+[2025.05.15-20.34.07:743][791]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.07:743][791]MaterialEditorStats: Shader Count: 5
+[2025.05.15-20.34.07:743][791]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.08:132][817]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.15-20.34.08:132][817]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.08:132][817]MaterialEditorStats: Shader Count: 0
+[2025.05.15-20.34.08:132][817]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.08:229][819]MaterialEditorStats: Base pass shader: 164 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.05.15-20.34.08:229][819]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.05.15-20.34.08:229][819]MaterialEditorStats: Texture samplers: 1/16
+[2025.05.15-20.34.08:229][819]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.08:229][819]MaterialEditorStats: Shader Count: 5
+[2025.05.15-20.34.08:229][819]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.10:330][944]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.15-20.34.10:330][944]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.10:330][944]MaterialEditorStats: Shader Count: 0
+[2025.05.15-20.34.10:330][944]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.10:446][947]MaterialEditorStats: Base pass shader: 164 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.05.15-20.34.10:446][947]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.05.15-20.34.10:446][947]MaterialEditorStats: Texture samplers: 1/16
+[2025.05.15-20.34.10:446][947]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.10:446][947]MaterialEditorStats: Shader Count: 5
+[2025.05.15-20.34.10:446][947]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.10:838][970]LogSlate: Window 'Color Picker' being destroyed
+[2025.05.15-20.34.10:856][970]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.15-20.34.10:856][970]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.10:856][970]MaterialEditorStats: Shader Count: 0
+[2025.05.15-20.34.10:856][970]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.10:983][973]MaterialEditorStats: Base pass shader: 164 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.05.15-20.34.10:984][973]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.05.15-20.34.10:984][973]MaterialEditorStats: Texture samplers: 1/16
+[2025.05.15-20.34.10:984][973]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.10:984][973]MaterialEditorStats: Shader Count: 5
+[2025.05.15-20.34.10:984][973]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.12:101][ 47]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.15-20.34.12:101][ 47]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.12:101][ 47]MaterialEditorStats: Shader Count: 0
+[2025.05.15-20.34.12:101][ 47]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.12:694][ 74]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.05.15-20.34.12:694][ 74]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.15-20.34.12:694][ 74]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.12:694][ 74]MaterialEditorStats: Shader Count: 2
+[2025.05.15-20.34.12:694][ 74]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.13:119][ 89]MaterialEditorStats: Base pass shader: 166 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.05.15-20.34.13:119][ 89]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.05.15-20.34.13:119][ 89]MaterialEditorStats: Texture samplers: 1/16
+[2025.05.15-20.34.13:119][ 89]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.13:120][ 89]MaterialEditorStats: Shader Count: 4
+[2025.05.15-20.34.13:120][ 89]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.13:714][128]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.15-20.34.13:714][128]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.13:714][128]MaterialEditorStats: Shader Count: 0
+[2025.05.15-20.34.13:714][128]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.13:830][131]MaterialEditorStats: Base pass shader: 166 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.05.15-20.34.13:830][131]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.05.15-20.34.13:830][131]MaterialEditorStats: Texture samplers: 1/16
+[2025.05.15-20.34.13:830][131]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.13:830][131]MaterialEditorStats: Shader Count: 5
+[2025.05.15-20.34.13:830][131]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.14:516][171]LogSlate: Window 'Color Picker' being destroyed
+[2025.05.15-20.34.14:526][171]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.15-20.34.14:526][171]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.14:526][171]MaterialEditorStats: Shader Count: 0
+[2025.05.15-20.34.14:526][171]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.14:666][174]MaterialEditorStats: Base pass shader: 166 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.05.15-20.34.14:666][174]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.05.15-20.34.14:666][174]MaterialEditorStats: Texture samplers: 1/16
+[2025.05.15-20.34.14:666][174]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.14:666][174]MaterialEditorStats: Shader Count: 5
+[2025.05.15-20.34.14:666][174]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.17:382][381]MaterialEditorStats: Texture samplers: 0/16
+[2025.05.15-20.34.17:382][381]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.17:382][381]MaterialEditorStats: Shader Count: 0
+[2025.05.15-20.34.17:382][381]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.19:786][549]MaterialEditorStats: Base pass shader: 167 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.05.15-20.34.19:786][549]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.05.15-20.34.19:786][549]MaterialEditorStats: Texture samplers: 1/16
+[2025.05.15-20.34.19:786][549]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.05.15-20.34.19:786][549]MaterialEditorStats: Shader Count: 5
+[2025.05.15-20.34.19:786][549]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.05.15-20.34.20:437][587]LogMaterialEditor: Applying material M_TESTCOMMIT
+[2025.05.15-20.34.20:588][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.05.15-20.34.21:856][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.05.15-20.34.22:292][611]LogMaterialEditor: Saving and Compiling material M_TESTCOMMIT
+[2025.05.15-20.34.22:295][611]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.15-20.34.22:326][611]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_TESTCOMMIT] ([1] browsable assets)...
+[2025.05.15-20.34.22:408][611]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_TESTCOMMIT.M_TESTCOMMIT]
+[2025.05.15-20.34.22:408][611]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_TESTCOMMIT]
+[2025.05.15-20.34.22:408][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_TESTCOMMIT" FILE="M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Content/M_TESTCOMMIT.uasset" SILENT=true
+[2025.05.15-20.34.22:416][611]LogSavePackage: Moving output files for package: /Game/M_TESTCOMMIT
+[2025.05.15-20.34.22:416][611]LogSavePackage: Moving 'M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Saved/M_TESTCOMMITA7FCFCF1445C784111D1879626D90FE4.tmp' to 'M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Content/M_TESTCOMMIT.uasset'
+[2025.05.15-20.34.22:427][611]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.380 ms
+[2025.05.15-20.34.22:457][611]LogContentValidation: Display: Starting to validate 1 assets
+[2025.05.15-20.34.22:457][611]LogContentValidation: Enabled validators:
+[2025.05.15-20.34.22:457][611]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.15-20.34.22:457][611]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.15-20.34.22:457][611]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.15-20.34.22:457][611]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.15-20.34.22:457][611]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.15-20.34.22:457][611]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.15-20.34.22:457][611]AssetCheck: /Game/M_TESTCOMMIT Validating asset
+[2025.05.15-20.34.22:983][644]LogSlate: Window 'M_TESTCOMMIT' being destroyed
+[2025.05.15-20.34.46:959][777]LogDerivedDataCache: C:/Users/Olly/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
