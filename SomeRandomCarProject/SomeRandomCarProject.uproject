@@ -33,6 +33,10 @@
 		{
 			"Name": "PCG",
 			"Enabled": true
+		},
+		{
+			"Name": "SlateModelViewViewModel",
+			"Enabled": true
 		}
 	]
 }
