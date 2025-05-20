@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"M:\\Git Reposity\\Projects\\SomeRandomCarProject\\SomeRandomCarProject\\Source\\SomeRandomCarProject\\SomeRandomCarProject.Build.cs",
-		"M:\\Git Reposity\\Projects\\SomeRandomCarProject\\SomeRandomCarProject\\Source\\SomeRandomCarProject.Target.cs",
-		"M:\\Git Reposity\\Projects\\SomeRandomCarProject\\SomeRandomCarProject\\Source\\SomeRandomCarProjectEditor.Target.cs"
+		"C:\\Users\\cupra\\OneDrive\\Desktop\\CorrectCarGame\\SomeRandomCarProject\\SomeRandomCarProject\\SomeRandomCarProject\\Source\\SomeRandomCarProject\\SomeRandomCarProject.Build.cs",
+		"C:\\Users\\cupra\\OneDrive\\Desktop\\CorrectCarGame\\SomeRandomCarProject\\SomeRandomCarProject\\SomeRandomCarProject\\Source\\SomeRandomCarProject.Target.cs",
+		"C:\\Users\\cupra\\OneDrive\\Desktop\\CorrectCarGame\\SomeRandomCarProject\\SomeRandomCarProject\\SomeRandomCarProject\\Source\\SomeRandomCarProjectEditor.Target.cs"
 	],
 	"EngineVersion": "5.5.4"
 }

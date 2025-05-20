@@ -84,5 +84,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Vehicle Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=SomeRandomCarProject
-/fo "M:\Git Reposity\Projects\SomeRandomCarProject\SomeRandomCarProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SomeRandomCarProject\Default.rc2.res"
+/fo "C:\Users\cupra\OneDrive\Desktop\CorrectCarGame\SomeRandomCarProject\SomeRandomCarProject\SomeRandomCarProject\Intermediate\Build\Win64\x64\UnrealEditor\Development\SomeRandomCarProject\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
