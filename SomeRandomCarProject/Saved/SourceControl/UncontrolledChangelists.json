@@ -5,11 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Content/M_TESTCOMMIT.uasset",
-				"M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Content/Materials/PostProcess/PP_Stylised.uasset",
-				"M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Content/Materials/PostProcess/M_OverlayEdge.uasset",
-				"M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Content/Materials/PostProcess/MI_OverlayEdge.uasset",
-				"M:/Git Reposity/Projects/SomeRandomCarProject/SomeRandomCarProject/Content/Materials/PostProcess/PPI_Stylised.uasset"
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/BP_Car.uasset",
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/M_DemoWorld.umap"
 			]
 		}
 	]

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SomeRandomCarProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SomeRandomCarProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SomeRandomCarProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultMass.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SomeRandomCarProject">
+      <UniqueIdentifier>{6D9FC7B5-9A8A-3C37-A1F9-B62E58ADEA19}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\A_Car.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\A_Car.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <None Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProject.Build.cs">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProject.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProject.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectGameMode.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectGameMode.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectOffroadCar.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectOffroadCar.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectOffroadWheelFront.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectOffroadWheelFront.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectOffroadWheelRear.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectOffroadWheelRear.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectPawn.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectPawn.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectPlayerController.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectPlayerController.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectSportsCar.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectSportsCar.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectSportsWheelFront.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectSportsWheelFront.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectSportsWheelRear.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectSportsWheelRear.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectUI.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectUI.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectWheelFront.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectWheelFront.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectWheelRear.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProjectWheelRear.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\cupra\\onedrive\\desktop\\correctcargame\\somerandomcarproject\\somerandomcarproject\\somerandomcarproject\\intermediate\\build\\win64\\unrealeditor\\inc\\somerandomcarproject\\uht\\somerandomcarproject.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\cupra\\onedrive\\desktop\\correctcargame\\somerandomcarproject\\somerandomcarproject\\somerandomcarproject\\intermediate\\build\\win64\\x64\\somerandomcarprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\cupra\\onedrive\\desktop\\correctcargame\\somerandomcarproject\\somerandomcarproject\\somerandomcarproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\somerandomcarproject\\definitions.somerandomcarproject.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
