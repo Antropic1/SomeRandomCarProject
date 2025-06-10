@@ -5,7 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/BP_Car.uasset",
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/BP_PlayerCar.uasset",
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/BP_CarPlayerController.uasset",
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/BP_CarGameMode.uasset",
 				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/M_DemoWorld.umap"
 			]
 		}

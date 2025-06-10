@@ -42,6 +42,24 @@
     <ClCompile Include="..\..\Source\SomeRandomCarProject\A_Car.h">
       <Filter>Source\SomeRandomCarProject</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\A_CarGameMode.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\A_CarGameMode.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\A_PlayerCar.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\A_PlayerCar.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\A_PlayerController.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\A_PlayerController.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
     <None Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProject.Build.cs">
       <Filter>Source\SomeRandomCarProject</Filter>
     </None>
