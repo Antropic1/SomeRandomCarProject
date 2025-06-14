@@ -75,7 +75,6 @@ template<> SOMERANDOMCARPROJECT_API UClass* StaticClass<AA_PlayerCar>()
 {
 	return AA_PlayerCar::StaticClass();
 }
-AA_PlayerCar::AA_PlayerCar(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AA_PlayerCar);
 AA_PlayerCar::~AA_PlayerCar() {}
 // End Class AA_PlayerCar

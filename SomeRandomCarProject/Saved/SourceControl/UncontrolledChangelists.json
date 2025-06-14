@@ -6,9 +6,15 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/BP_PlayerCar.uasset",
-				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/BP_CarPlayerController.uasset",
 				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/BP_CarGameMode.uasset",
-				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/M_DemoWorld.umap"
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/M_DemoWorld.umap",
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/VehicleTemplate/Blueprints/BP_VehicleAdvGameMode.uasset",
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/VehicleTemplate/Blueprints/BP_VehicleAdvOffroadGameMode.uasset",
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/BP_VehicleAdvPlayerController.uasset",
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/Enemy/BP_DefaultEnemy.uasset",
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/Enemy/AIC_DefaultEnemy.uasset",
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/OliverC++StartOver/BP_CarPlayerController.uasset",
+				"C:/Users/cupra/OneDrive/Desktop/CorrectCarGame/SomeRandomCarProject/SomeRandomCarProject/SomeRandomCarProject/Content/VehicleTemplate/Blueprints/BP_VehicleAdvPlayerController.uasset"
 			]
 		}
 	]

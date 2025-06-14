@@ -60,6 +60,18 @@
     <ClCompile Include="..\..\Source\SomeRandomCarProject\A_PlayerController.h">
       <Filter>Source\SomeRandomCarProject</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\EnemyDefault.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\EnemyDefault.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\EnemyDefaultAIController.cpp">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SomeRandomCarProject\EnemyDefaultAIController.h">
+      <Filter>Source\SomeRandomCarProject</Filter>
+    </ClCompile>
     <None Include="..\..\Source\SomeRandomCarProject\SomeRandomCarProject.Build.cs">
       <Filter>Source\SomeRandomCarProject</Filter>
     </None>

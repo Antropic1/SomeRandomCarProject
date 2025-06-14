@@ -4,6 +4,8 @@
 		"Module.SomeRandomCarProject.cpp.obj": [
 			"A_Car.gen.cpp.obj",
 			"A_CarGameMode.gen.cpp.obj",
+			"A_PlayerController.gen.cpp.obj",
+			"EnemyDefaultAIController.gen.cpp.obj",
 			"SomeRandomCarProjectGameMode.gen.cpp.obj",
 			"SomeRandomCarProjectOffroadCar.gen.cpp.obj",
 			"SomeRandomCarProjectOffroadWheelFront.gen.cpp.obj",
@@ -18,6 +20,8 @@
 			"SomeRandomCarProjectWheelRear.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
 			"A_Car.cpp.obj",
+			"A_CarGameMode.cpp.obj",
+			"A_PlayerController.cpp.obj",
 			"SomeRandomCarProject.cpp.obj",
 			"SomeRandomCarProjectGameMode.cpp.obj",
 			"SomeRandomCarProjectOffroadCar.cpp.obj",
@@ -32,9 +36,11 @@
 			"SomeRandomCarProjectWheelFront.cpp.obj",
 			"SomeRandomCarProjectWheelRear.cpp.obj",
 			"A_PlayerCar.gen.cpp.obj",
+			"EnemyDefault.gen.cpp.obj",
 			"SomeRandomCarProject.init.gen.cpp.obj",
-			"A_CarGameMode.cpp.obj",
-			"A_PlayerCar.cpp.obj"
+			"A_PlayerCar.cpp.obj",
+			"EnemyDefault.cpp.obj",
+			"EnemyDefaultAIController.cpp.obj"
 		]
 	}
 }
